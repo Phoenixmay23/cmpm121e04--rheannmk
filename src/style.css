@@ -96,10 +96,15 @@ output {
 
 .pip {
   color: var(--og-pink);
+  width: 22px;
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  background: currentColor;
 }
 
 .cell {
   color: var(--og-yellow);
+  flex: 1;
+  border-radius: 2;
 }
 
 .pip.lit,
